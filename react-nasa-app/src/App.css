@@ -1,0 +1,64 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #222222;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.apod {
+  margin: 20px;
+}
+
+.apod-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  width: 200px;
+}
+
+button {
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.search-results {
+  margin: 20px 0;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.result-item {
+  width: 200px;
+}
+
+.search-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
